@@ -1,0 +1,7 @@
+03-07 09:26:48.077: E/AndroidRuntime(26462): FATAL EXCEPTION: main
+03-07 09:26:48.077: E/AndroidRuntime(26462): Process: com.companyname.aothybrid, PID: 26462
+03-07 09:26:48.077: E/AndroidRuntime(26462): android.runtime.JavaProxyThrowable: System.InvalidProgramException: Invalid IL code in Xamarin.Essentials.Preferences:PlatformGet<bool> (string,bool,string): IL_0000: ret       
+03-07 09:26:48.077: E/AndroidRuntime(26462):   at Xamarin.Essentials.Preferences.Get (System.String key, System.Boolean defaultValue, System.String sharedName) [0x00000] in <af88747156ed45cbb8f18520f965f302>:0 
+03-07 09:26:48.077: E/AndroidRuntime(26462):   at Xamarin.Essentials.Preferences.Get (System.String key, System.Boolean defaultValue) [0x00000] in <af88747156ed45cbb8f18520f965f302>:0 
+03-07 09:26:48.077: E/AndroidRuntime(26462):   at AotHybrid.Droid.MainActivity.OnCreate (Android.OS.Bundle savedInstanceState) [0x00029] in <a2766fa86ae14654b1c9ed6016e6eacf>:0 
+03-07 09:26:48.077: E/AndroidRuntime(26462):   at Android.App.Activity.n_OnCreate_Landroid_os_Bundle_ (System.IntPtr jnienv, System.IntPtr native__this, System.IntPtr native_savedInstanceState) [0x00011] in <3c7881444b054fd8ab4d2ab85ee43c60>:0 
